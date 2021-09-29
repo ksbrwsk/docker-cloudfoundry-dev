@@ -1,7 +1,7 @@
 # docker-cloudfoundry-dev
 
 #### Base services for local development with Docker.
-##### Services contain Config Server, Eureka Service Registry and SPring Boot Admin
+##### Services contain Config Server, Eureka Service Registry and Spring Boot Admin
 
 **Prerequisites:**
 
@@ -18,3 +18,14 @@ Type
 ```
 
 to build and run the services on Docker your local environment.
+
+### Note:
+
+To change the URI of the Config Server GIT Repo, edit
+```properties
+docker-config-service/src/main/resources/application.properties
+```
+the line
+```properties
+spring.cloud.config.server.git.uri=https://github.com/<USER>/<REPO>.git
+```
