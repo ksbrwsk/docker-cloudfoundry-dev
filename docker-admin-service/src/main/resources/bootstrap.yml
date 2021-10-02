@@ -5,7 +5,14 @@ spring:
     import: optional:configserver:http://host.docker.internal:8888
   profiles:
     active: dev
- server:
+  boot:
+    admin:
+      notify:
+        ms-teams:
+          enabled: false
+          webhook-url: https://talanx.webhook.office.com/webhookb2/8422df17-3c32-4f48-90e3-8d0ddbef6521@40b97eb8-0e2a-4b10-9e5d-5e3d18532f01/IncomingWebhook/5455de8727ef445085ec948c6a78a2ea/be2075b2-1306-4c1a-8602-ff2c5b6fe2d7
+          messageSummary: OPAL-DEV Mitteilung
+server:
   port: 9000
 eureka:
   instance:
