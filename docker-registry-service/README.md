@@ -1,6 +1,6 @@
 # docker-cloudfoundry-dev
 
-#### Spring-Boot-Config Server.
+#### Eureka Service Registry.
 
 **Prerequisites:**
 
@@ -12,7 +12,7 @@
 
 Type
 ```bash
-./build-deploy-config-service.sh
+./build-deploy-service-registry.sh
 ```
 to build and run the services on Docker your local environment.
 
