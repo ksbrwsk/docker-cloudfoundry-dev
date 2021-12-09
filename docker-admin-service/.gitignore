@@ -1,4 +1,5 @@
 src/main/resources/bootstrap-sabo.yml
+src/main/resources/bootstrap.yml
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar

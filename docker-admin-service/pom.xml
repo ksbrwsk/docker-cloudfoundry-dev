@@ -14,7 +14,7 @@
     <description>Spring Boot Admin Service for local Cloudfoundry Development with Docker.</description>
 
     <properties>
-        <spring-boot-admin.version>2.5.1</spring-boot-admin.version>
+        <spring-boot-admin.version>2.5.4</spring-boot-admin.version>
     </properties>
 
     <dependencies>
