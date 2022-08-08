@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-alpine
+FROM eclipse-temurin:17
 MAINTAINER kai.saborowski@googlemail.com
 
 EXPOSE 9000
